@@ -181,10 +181,9 @@
 				<version>2.20.1</version>
 				<configuration>
 					<includes>
-						<include>./**/tests/**.java</include>
+						<include>**.java</include>
 					</includes>
 					<reuseForks>false</reuseForks>
-					<argLine>-XX:MaxPermSize=2G</argLine>
 					<failIfNoTests>false</failIfNoTests>
 					<parallel>methods</parallel>
 					<perCoreThreadCount>false</perCoreThreadCount>
